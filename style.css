@@ -41,3 +41,14 @@ html {
   /* The same, but based on default browser 16px. Allow a user scale default font if he needs. */
   font-size: 62.5%;
 }
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  width: 100%;
+}
