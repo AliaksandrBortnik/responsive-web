@@ -33,3 +33,11 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+html {
+  /* To simplify rem calculation */
+  /* font-size: 10px; */
+
+  /* The same, but based on default browser 16px. Allow a user scale default font if he needs. */
+  font-size: 62.5%;
+}
