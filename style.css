@@ -8,6 +8,10 @@
   1.05
   1.6 (paragraph)
 
+  - LETTER SPACING
+  -0.5px
+  0.75px
+
   - SPACING SYSTEM (px)
   2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
@@ -77,13 +81,33 @@ html {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.heading-primary {
+.heading-primary,
+.heading-secondary {
   font-weight: 600;
-  font-size: 5.2rem;
-  line-height: 1.05;
   color: #333;
   letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
 .mr-sm {
@@ -93,7 +117,6 @@ html {
 .mt-sm {
   margin-top: 8rem;
 }
-
 
 .btn:link, .btn:visited {
   font-size: 2rem;
@@ -233,4 +256,13 @@ html {
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+/* HOW IT WORKS SECTION */
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.step-img {
+  width: 50%;
 }
