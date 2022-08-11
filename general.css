@@ -27,6 +27,7 @@
 --- 3. SHADOWS
 --- 4. BORDER-RADIUS
   - Default: 9px (not need to scale using rem)
+  - 11px
 
 --- 5. WHITESPACE
  */
@@ -50,6 +51,10 @@ html {
 
   /* The same, but based on default browser 16px. Allow a user scale default font if he needs. */
   font-size: 62.5%;
+}
+
+strong {
+  font-weight: 500;
 }
 
 /* BASIC COMPONENTS */
