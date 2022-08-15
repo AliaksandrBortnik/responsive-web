@@ -1,14 +1,19 @@
 /*
 --- 1. Typography
-  - FONT WEIGHTS:
-  400 (default)
+  - Font weights:
+  Default: 400
+  Medium: 500
+  Semi-bold: 600
+  Bold: 700
 
-  - LINE HEIGHTS:
-  1 (default)
-  1.05
-  1.6 (paragraph)
+  - Line heights:
+  Default: 1
+  Small: 1.05
+  Medium: 1.2
+  Paragraph: 1.6
+  Large: 1.8
 
-  - LETTER SPACING
+  - Letter spacing
   -0.5px
   0.75px
 
@@ -138,10 +143,6 @@ strong {
 
 .mr-sm {
   margin-right: 1.6rem !important;
-}
-
-.mt-sm {
-  margin-top: 8rem !important;
 }
 
 .mb-md {

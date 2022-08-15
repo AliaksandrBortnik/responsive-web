@@ -25,6 +25,7 @@
   display: flex;
   align-items: center;
   column-gap: 10px;
+  margin-top: 8rem;
 }
 
 .delivered-imgs {
@@ -267,6 +268,7 @@
   color: #e67e22;
 }
 
+/* TODO: Move to general.css */
 .list {
   list-style: none;
   display: flex;
@@ -279,6 +281,7 @@
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
@@ -372,6 +375,10 @@
   border: 2px solid #fdf2e9;
   /* A bit less than complete due to the existing 2px border */
   padding: 4.6rem;
+}
+
+.pricing-plan--starter .list .list-item:last-child {
+  visibility: hidden;
 }
 
 .pricing-plan--complete {
