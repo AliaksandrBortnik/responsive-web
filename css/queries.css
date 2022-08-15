@@ -1,6 +1,6 @@
 /* em = 16px. em/rem doesn't depend on html root font-size in media breakpoint rules */
 
-/* 1. BELOW 1344px (small desktop) */
+/* 1. < 1344px (small desktop) */
 @media (max-width: 84em) {
   .hero {
     max-width: 120rem;
@@ -12,5 +12,42 @@
 
   .gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 2. < 1200px (landscape tables) */
+@media (max-width: 75em) {
+  html {
+    /* Override 1rem */
+    font-size: 56.25%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
   }
 }
