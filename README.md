@@ -1,2 +1,2 @@
 # responsive-web
-Responsive website for desktop and mobile support
+Responsive modern landing website for desktop with mobile and tablet support
