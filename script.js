@@ -5,6 +5,24 @@ navButton.addEventListener('click', () => {
   header.classList.toggle('nav-open');
 });
 
+// Sticky navigation
+const sectionHero = document.querySelector('.section-hero');
+
+const observer = new IntersectionObserver((entries) => {
+  const entry = entries[0];
+
+  if (!entry.isIntersecting) {
+    document.body.classList.add('sticky');
+  } else {
+    document.body.classList.remove('sticky');
+  }
+}, {
+  root: null, // In the viewport
+  threshold: 0,
+  rootMargin: '-80px', // Trigger a bit earlier (as height of header)
+});
+observer.observe(sectionHero);
+
 // Smooth scrolling for Safari
 const links = document.querySelectorAll('a:link');
 
