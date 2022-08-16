@@ -1,4 +1,4 @@
-# Modern responsive-adaptive website for desktop with mobile phones and tablet support.
+# Modern responsive website for desktop with mobile phones and tablet support.
 
 Main breakpoints:
 1. < 1344px (small desktop)
@@ -8,7 +8,7 @@ Main breakpoints:
 5. < 544 (mobile phones)
 
 ## Features and details:
-- Fully responsive/adaptive design (rem based, media queries, max-width/min-width)
+- Fully responsive design (rem based, media queries, max-width/min-width)
 - CSS Grid / CSS Flexbox based layout
 - UX best practices (fonts, colors, letter-spacing, line-height, white-spacing, etc.)
 - Transition animation
