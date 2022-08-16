@@ -65,6 +65,8 @@ html {
   font-size: 62.5%;
   /* Hide none-visible mobile nav */
   overflow-x: hidden;
+  /* Works well for all browsers except Safari. JS replacement in script.js */
+  /*scroll-behavior: smooth;*/
 }
 
 strong {
