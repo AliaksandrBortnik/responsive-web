@@ -188,7 +188,7 @@
   }
 }
 
-/* 4. < 704 (small tables) */
+/* 4. < 704 (small tablets) */
 @media (max-width: 44em) {
   .heading-secondary {
     font-size: 4.8rem;
