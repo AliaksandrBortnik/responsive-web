@@ -1,5 +1,7 @@
 # Modern responsive website for desktop with mobile phones and tablet support.
 
+Deployed website path: https://aliaksandrbortnik.github.io/responsive-web/
+
 Main breakpoints:
 1. < 1344px (small desktop)
 2. < 1200px (landscape tables)
