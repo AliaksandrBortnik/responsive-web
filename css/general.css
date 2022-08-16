@@ -53,6 +53,8 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  /* For mobile nav animation right-to-left */
+  overflow-x: hidden;
 }
 
 html {

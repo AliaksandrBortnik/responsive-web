@@ -65,6 +65,9 @@
   padding: 0 4.8rem;
   background-color: #fdf2e9;
   height: 9.6rem;
+
+  /* For mobile nav animation right-to-left */
+  position: relative;
 }
 
 .logo {
@@ -106,6 +109,25 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+/* MOBILE NAV */
+
+.btn-mobile-nav {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /* HOW IT WORKS SECTION */
