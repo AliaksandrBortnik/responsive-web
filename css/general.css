@@ -53,7 +53,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-  /* For mobile nav animation right-to-left */
+  /* Hide none-visible mobile nav */
   overflow-x: hidden;
 }
 
@@ -63,6 +63,8 @@ html {
 
   /* The same, but based on default browser 16px. Allow a user scale default font if he needs. */
   font-size: 62.5%;
+  /* Hide none-visible mobile nav */
+  overflow-x: hidden;
 }
 
 strong {
