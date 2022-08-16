@@ -188,7 +188,6 @@
 
 .featured-logos {
   display: flex;
-  align-items: center;
   justify-content: space-around;
   column-gap: 2rem;
 }
